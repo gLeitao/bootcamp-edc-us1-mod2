@@ -14,9 +14,9 @@ spec:
     value.converter: org.apache.kafka.connect.json.JsonConverter
     key.converter.schemas.enable: true
     value.converter.schemas.enable: true
-    connection.url: "jdbc:postgresql://database-igti.cula5iyns9ww.us-east-2.rds.amazonaws.com:5432/postgres"
-    connection.user: "geovanileitao"
-    connection.password: "geovanileitao"
+    connection.url: "jdbc:postgresql://host:port/db"
+    connection.user: ""
+    connection.password: ""
     connection.attempts: "2"
     query: "SELECT * FROM public.customers"
     mode: "incrementing"
